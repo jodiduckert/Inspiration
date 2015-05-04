@@ -110,7 +110,7 @@ html, body, nav, section, div, img, ul, p {
 }
 
 #travelpicture2 {
-	display: block;
+	display: none;
 }
 
 #travelinfo {
@@ -126,6 +126,10 @@ html, body, nav, section, div, img, ul, p {
 	text-decoration: none;
 	cursor: pointer;
 	color: #426da3;
+}
+
+.moretext {
+	display: none;
 }
 
 
@@ -221,6 +225,10 @@ html, body, nav, section, div, img, ul, p {
 	padding-left: 2%;
 	padding-right: 2%;
 	width: 40%;
+}
+
+.moretext {
+	display: block;
 }
 
 }
