@@ -1,0 +1,224 @@
+html, body, nav, section, div, img, ul, p {
+	margin: 0 auto;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#header {
+	height: auto;
+	background-color: #dddddd;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+#headtext {
+	text-align: center;
+	color: #426da3;
+	font-size: 5em;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+#numero-uno {
+	height: auto;
+	width: 100%;
+	background-color: #cccccc;
+	overflow: hidden;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#designpictureli {
+	list-style-type: none;
+}
+
+#designpicture {
+	height: auto;
+	width: 20%;
+	list-style-type: none;
+	padding-left: 8%;
+	float: left;
+}
+
+#designinfo {
+	list-style-type: none;
+	padding-left: 4%;
+	padding-right: 8%;
+	width: 60%;
+	font-size: 1em;
+	float: left;
+}
+
+#numero-dos {
+	height: auto;
+	width: 100%;
+	background-color: #aaaaaa;
+	overflow: hidden;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#tattoopictureli {
+	list-style-type: none;
+}
+
+#tattoopicture {
+	height: auto;
+	width: 20%;
+	list-style-type: none;
+	padding-left: 8%;
+	float: left;
+}
+
+#tattooinfo {
+	list-style-type: none;
+	padding-left: 4%;
+	padding-right: 8%;
+	width: 60%;
+	font-size: 1em;
+	float: left;
+}
+
+#numero-tres {
+	height: auto;
+	width: 100%;
+	background-color: #bbbbbb;
+	overflow: hidden;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#travelpictureli {
+	list-style-type: none;
+}
+
+#travelpicture {
+	height: auto;
+	width: 20%;
+	list-style-type: none;
+	padding-left: 8%;
+	float: left;
+}
+
+#travelinfo {
+	list-style-type: none;
+	padding-left: 4%;
+	padding-right: 8%;
+	width: 60%;
+	font-size: 1em;
+	float: left;
+}
+
+.morelink {
+	text-decoration: none;
+	cursor: pointer;
+	color: #426da3;
+}
+
+
+@media (max-width: 640px) {
+
+#headtext {
+	font-size: 3em;
+}
+
+#designpicture {
+	width: 30%;
+}
+
+#designinfo {
+	width: 50%;
+	font-size: 0.8em;
+}
+
+#tattoopicture {
+	width: 30%;
+}
+
+#tattooinfo {
+	width: 50%;
+	font-size: 0.8em;
+}
+
+#travelpicture {
+	width: 30%;
+}
+
+#travelinfo {
+	width: 50%;
+	font-size: 0.8em;
+}
+
+}
+
+@media (min-width: 800px) {
+
+#designpicture {
+	width: 30%;
+}
+
+#designinfo {
+	width: 50%;
+	font-size: 1em;
+	padding-top: 4em;
+}
+
+#tattoopicture {
+	width: 30%;
+}
+
+#tattooinfo {
+	width: 50%;
+	font-size: 1em;
+	padding-top: 4em;
+}
+
+#travelpicture {
+	width: 30%;
+}
+
+#travelinfo {
+	width: 50%;
+	font-size: 1em;
+	padding-top: 4em;
+}
+
+}
+
+@media (min-width: 900px) {
+
+#designinfo {
+	font-size: 1em;
+	padding-top: 6em;
+}
+
+#tattooinfo {
+	font-size: 1em;
+	padding-top: 6em;
+}
+
+#travelinfo {
+	font-size: 1em;
+	padding-top: 6em;
+}
+
+}
+
+@media (min-width: 1100px) {
+
+#designinfo {
+	font-size: 1em;
+	padding-top: 8em;
+}
+
+#tattooinfo {
+	font-size: 1em;
+	padding-top: 8em;
+}
+
+#travelinfo {
+	font-size: 1em;
+	padding-top: 8em;
+}
+
+}
