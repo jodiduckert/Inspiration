@@ -6,23 +6,35 @@ html, body, nav, section, div, img, ul, p {
 
 #header {
 	height: auto;
-	background-color: #dddddd;
-	padding-top: 1em;
+	background-color: #2a334f;
+	padding-top: 2em;
 	padding-bottom: 2em;
 }
 
 #headtext {
 	text-align: center;
-	color: #426da3;
+	font-family: Handlee, sans-serif;
+	font-weight: 600;
+	color: #e0cda7;
 	font-size: 5em;
 	padding-left: 0.25em;
 	padding-right: 0.25em;
 }
 
+#minortext {
+	text-align: center;
+	font-family: Handlee, sans-serif;
+	font-weight: 100;
+	color: #e0cda7;
+	font-size: 1.1em;
+	padding-left: 0.75;
+	padding-right: 0.75;
+}
+
 #numero-uno {
 	height: auto;
 	width: 100%;
-	background-color: #cccccc;
+	background-color: #e0cda7;
 	overflow: hidden;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -51,13 +63,16 @@ html, body, nav, section, div, img, ul, p {
 	padding-right: 8%;
 	width: 60%;
 	font-size: 1em;
+	color: #2a334f;
 	float: left;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
 }
 
 #numero-dos {
 	height: auto;
 	width: 100%;
-	background-color: #aaaaaa;
+	background-color: #e0cda7;
 	overflow: hidden;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -85,13 +100,16 @@ html, body, nav, section, div, img, ul, p {
 	padding-right: 8%;
 	width: 60%;
 	font-size: 1em;
+	color: #2a334f;
 	float: left;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
 }
 
 #numero-tres {
 	height: auto;
 	width: 100%;
-	background-color: #bbbbbb;
+	background-color: #e0cda7;
 	overflow: hidden;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -119,17 +137,24 @@ html, body, nav, section, div, img, ul, p {
 	padding-right: 8%;
 	width: 60%;
 	font-size: 1em;
+	color: #2a334f;
 	float: left;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
 }
 
 .morelink {
 	text-decoration: none;
 	cursor: pointer;
 	color: #426da3;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
 }
 
 .moretext {
 	display: none;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
 }
 
 
@@ -168,7 +193,7 @@ html, body, nav, section, div, img, ul, p {
 
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
 
 #designpicture1 {
 	width: 20%;
@@ -226,6 +251,14 @@ html, body, nav, section, div, img, ul, p {
 	padding-right: 2%;
 	width: 40%;
 }
+
+.moretext {
+	display: block;
+}
+
+}
+
+@media (min-width: 550px) {
 
 .moretext {
 	display: block;
