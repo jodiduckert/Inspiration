@@ -144,7 +144,7 @@ html, body, nav, section, div, img, ul, p {
 }
 
 .morelink {
-	text-decoration: none;
+	text-decoration: underline;
 	cursor: pointer;
 	color: #2a334f;
 	font-family: Raleway, sans-serif;
@@ -182,6 +182,24 @@ html, body, nav, section, div, img, ul, p {
 	height: 100%;
 	width: auto;
 	display: block;
+}
+
+#bluebar {
+	background-color: #2a334f;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+#bluebar>a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#bluebar>a>p {
+	text-align: center;
+	color: #e0cda7;
+	font-family: Handlee, sans-serif;
+	font-weight: 100;
 }
 
 
